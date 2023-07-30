@@ -1,8 +1,10 @@
 import "./styles/index.scss";
+import { Suspense } from "react";
 import { classNames } from "shared/lib/classNames/classNames";
 import { useTheme } from "./providers/ThemeProvider";
 import { AppRouter } from "./providers/router";
 import { Navbar } from "widgets/Navbar";
+import { Sidebar } from "widgets/Sidebar";
 
 const App = () => {
   const { theme } = useTheme();
@@ -11,8 +13,13 @@ const App = () => {
     <div
       className={classNames("app", { hovered: true, selected: false }, [theme])}
     >
-      <Navbar className="test" />
-      <AppRouter />
+      <Suspense fallback="Loading...">
+        <Navbar />
+        <div className="content-page">
+          <Sidebar />
+          <AppRouter />
+        </div>
+      </Suspense>
     </div>
   );
 };
