@@ -1,6 +1,10 @@
 {
+  "": "",
   "About": "About",
   "AboutPage": "AboutPage",
+  "AppError": "AppError",
+  "BtnErrorUpdate": "BtnErrorUpdate",
+  "BugTest": "BugTest",
   "Language": "Language",
   "Main": "Main",
   "MainPage": "MainPage",

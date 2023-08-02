@@ -1,5 +1,8 @@
 {
   "Main": "Головна",
   "About": "Про нас",
-  "Language": "EN"
+  "Language": "EN",
+  "AppError": "Виникла непередбачена помилка",
+  "BtnErrorUpdate": "Оновити сторінку",
+  "BugTest": "Ініціалізація помилки"
 }

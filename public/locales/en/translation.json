@@ -1,5 +1,8 @@
 {
   "About": "About",
   "Main": "Main",
-  "Language": "UA"
+  "Language": "UA",
+  "AppError": "Something was wrong",
+  "BtnErrorUpdate": "Update page",
+  "BugTest": "Initialize bug"
 }
