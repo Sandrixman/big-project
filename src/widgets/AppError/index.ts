@@ -1,3 +1,3 @@
-import { AppError } from "./ui/AppError";
+import { AppError } from './ui/AppError';
 
-export {AppError};
+export { AppError };
