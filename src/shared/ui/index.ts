@@ -1,12 +1,10 @@
-import { AppLink } from 'shared/ui/AppLink/AppLink';
-import { Button, ThemeButton } from './Button/Button';
-import { LangSwitcher } from './LangSwitcher/LangSwitcher';
-import { ThemeSwitcher } from './ThemeSwitcher/ThemeSwitcher';
+import { AppLink } from './AppLink/AppLink';
+import { Loader } from './Loader/Loader';
+import { Button, ButtonTheme } from './Button/Button';
 
 export {
-    ThemeSwitcher,
-    LangSwitcher,
     AppLink,
     Button,
-    ThemeButton,
+    ButtonTheme,
+    Loader,
 };

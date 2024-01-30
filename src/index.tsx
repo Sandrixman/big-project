@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { ErrorBoundary } from 'app/providers/ErrorBoundary/ui/ErrorBoundary';
 import { ThemeProvider } from 'app/providers/ThemeProvider';
 import App from 'app/App';
-import 'shared/config/i18n/i18n';
+import 'features/LangSwitcher/config/i18n';
 
 render(
     <BrowserRouter>

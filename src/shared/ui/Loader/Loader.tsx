@@ -1,6 +1,5 @@
 import { MagnifyingGlass } from 'react-loader-spinner';
-
-import { classNames } from 'shared/lib/classNames/classNames';
+import { classNames } from 'shared/lib';
 import cls from './Loader.module.scss';
 
 interface LoaderProps {
