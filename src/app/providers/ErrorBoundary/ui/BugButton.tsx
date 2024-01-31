@@ -4,16 +4,11 @@ import { useEffect, useState } from 'react';
 
 export const BugButton = () => {
     const { t } = useTranslation();
-
     const [error, setError] = useState(false);
 
     useEffect(() => {
         if (error) {
-            try {
-                throw new Error('Повідомлення про помилку');
-            } catch (error) {
-                console.error('Помилка в BugButton:', error.message);
-            }
+            throw new Error('Повідомлення про помилку');
         }
     }, [error]);
 

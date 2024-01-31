@@ -6,6 +6,9 @@ export function buildDevServer({ port }: BuildOptions): DevServerConfiguration {
         port,
         open: true,
         historyApiFallback: true,
-        hot: true,
+        hot: false, // Вимкнути HMR
+        client: {
+            overlay: false, // Вимкнути overlay
+        },
     };
 }
