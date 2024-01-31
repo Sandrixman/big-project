@@ -4,7 +4,7 @@ import { Button } from 'shared/ui';
 import cls from './AppError.module.scss';
 
 interface AppErrorProps {
-    className?: string;
+    className?: string
 }
 
 const reloadPage = () => {
@@ -18,10 +18,7 @@ export const AppError = ({ className }: AppErrorProps) => {
     return (
         <div className={classNames(cls.AppError, {}, [className])}>
             <h2>{t('AppError')}</h2>
-            <Button
-                type="button"
-                onClick={reloadPage}
-            >
+            <Button type="button" onClick={reloadPage}>
                 {t('BtnErrorUpdate')}
             </Button>
         </div>

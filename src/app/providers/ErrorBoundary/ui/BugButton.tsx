@@ -9,7 +9,11 @@ export const BugButton = () => {
 
     useEffect(() => {
         if (error) {
-            throw new Error();
+            try {
+                throw new Error('Повідомлення про помилку');
+            } catch (error) {
+                console.error('Помилка в BugButton:', error.message);
+            }
         }
     }, [error]);
 

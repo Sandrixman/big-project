@@ -1,5 +1,3 @@
-import { AppError } from './AppError/AppError';
-import { Navbar } from './Navbar/Navbar';
-import { Sidebar } from './Sidebar/Sidebar';
-
-export { AppError, Navbar, Sidebar };
+export { AppError } from './AppError/AppError';
+export { Navbar } from './Navbar/Navbar';
+export { Sidebar } from './Sidebar/Sidebar';

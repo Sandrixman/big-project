@@ -1,7 +1,2 @@
-import { LangSwitcher } from './LangSwitcher/LangSwitcher';
-import { ThemeSwitcher } from './ThemeSwitcher/ThemeSwitcher';
-
-export {
-    ThemeSwitcher,
-    LangSwitcher,
-};
+export { LangSwitcher } from './LangSwitcher/LangSwitcher';
+export { ThemeSwitcher } from './ThemeSwitcher/ThemeSwitcher';

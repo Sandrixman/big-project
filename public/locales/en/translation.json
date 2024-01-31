@@ -1,8 +1,9 @@
 {
-  "About": "About",
-  "Main": "Main",
-  "Language": "UA",
-  "AppError": "Something was wrong",
-  "BtnErrorUpdate": "Update page",
-  "BugTest": "Initialize bug"
+    "Main": "Main",
+    "About": "About",
+    "Language": "UA",
+    "AppError": "Something was wrong",
+    "BtnErrorUpdate": "Update page",
+    "BugTest": "Initialize bug",
+    "Sidebar": "Sidebar"
 }
